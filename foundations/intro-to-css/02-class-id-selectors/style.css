@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+.odd {
+    background: pink;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+
+}
+
+.f-size {
+    font-size: 24px;
+}
+
+#num-2 {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+#num-4 {
+    background: hsl(120, 73%, 75%);
+    font-size: 24px;
+    font-weight: bold;
+}
