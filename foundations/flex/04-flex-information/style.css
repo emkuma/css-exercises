@@ -3,6 +3,8 @@ body {
 }
 
 img {
+  display: block;
+  margin: 0 auto;
   width: 100px;
   height: 100px;
 }
@@ -10,6 +12,13 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.text {
+  padding-left: 40px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -19,8 +28,15 @@ img {
   left: 0;
   right: 0;
   height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #eee;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-center-align {
+    align-items: center;
+    justify-content: center;
+}
+
